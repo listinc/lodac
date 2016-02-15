@@ -92,6 +92,7 @@
         end: "17:00"
         speaker: kclee
         type: standard
+        slides: "https://speakerdeck.com/lodac/iot-internet-of-things-wa-lod"
   - title: "미래사회와 데이터"
     start: "17:00"
     end: "17:30"

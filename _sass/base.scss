@@ -34,8 +34,7 @@ p.small {
 a,
 a:hover,
 a:focus,
-a:active,
-a.active {
+a:active {
   color: $brand-success;
   outline: none;
 }
@@ -263,6 +262,11 @@ section.even {
             right:    13px;
             color:    $gray-lighter;
 
+            a:hover,
+            a:focus,
+            a:active {
+              color: $brand-primary;
+            }
             .fa-lg {
               width:      20px;
               text-align: center;
