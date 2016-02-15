@@ -13,7 +13,7 @@ $(function() {
     var $anchor = $(this);
     if ($anchor.attr('href') != '#') {
       $('html, body').stop().animate({
-        scrollTop: $($anchor.attr('href')).offset().top - $('.navbar').height()
+        scrollTop: $($anchor.attr('href')).offset().top - $('.navbar-header').height()
       }, 1500, 'easeInOutExpo');
     }
     event.preventDefault();
