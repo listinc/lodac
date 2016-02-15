@@ -45,6 +45,7 @@ function initMap() {
     // Disables the default Google Maps UI components
     disableDefaultUI: true,
     scrollwheel: false,
+    draggable: false,
   };
 
   // Create the Google Map using out element and options defined above
