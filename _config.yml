@@ -1,0 +1,20 @@
+# Site Settings
+acronym: LODAC
+title: Linked Open Data Annual Conference
+description: "LODAC (Linked Open Data Annual Conference)는 데이터의 연결과 공유를 통해 변화하는 세상을 꿈꾸는 모든 이가 매년 함께 모여 의견을 나누는 행사입니다."
+author: James G. Kim
+baseurl: ""
+url: "http://lodac.kr"
+
+# Social Media Settings
+facebook: "lodac.kr"
+twitter: "lodac_kr"
+github: "listinc/lodac"
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+
+# Plug-ins
+gems:
+  - jekyll-redirect-from

@@ -1,0 +1,14 @@
+- text: 행사소개
+  url: "#about"
+
+- text: 프로그램
+  url: "#schedule"
+
+- text: 발표자
+  url: "#speakers"
+
+- text: 행사장소
+  url: "#logistics"
+
+- text: 참가신청
+  url: "http://onoffmix.com/event/61268"

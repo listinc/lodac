@@ -1,0 +1,98 @@
+- year: 2016
+  talks:
+  - title: "참가등록 및 행사소개"
+    start: "09:30"
+    end: "10:00"
+    type: opening
+  - title: "iSchool, Data Science, and DaaS (Data as a Service)"
+    start: "10:00"
+    end: "10:30"
+    speaker: sgoh
+    type: keynote
+  - title: "생활 속의 데이터"
+    start: "10:30"
+    end: "12:00"
+    type: session
+    talks:
+      - title: "공간정보 서비스에서 데이터의 활용"
+        start: "10:30"
+        end: "11:00"
+        speaker: jhlee
+        type: standard
+      - title: "공간정보와 링크드 데이터"
+        start: "11:00"
+        end: "11:30"
+        speaker: wjkim
+        type: standard
+      - title: "의료기술과 오픈데이터"
+        start: "11:30"
+        end: "12:00"
+        speaker: jekim
+        type: standard
+  - title: "점심시간"
+    start: "12:00"
+    end: "13:20"
+    type: lunch
+  - title: "LOD (Linked Open Data) 활용 및 사례"
+    start: "13:20"
+    end: "15:10"
+    type: session
+    talks:
+      - title: "쉽게 다가가는 LOD"
+        start: "13:20"
+        end: "13:50"
+        speaker: mjlee
+        type: standard
+      - title: "LOD 사례 1: NDSL (National Digital Science Library)"
+        start: "13:50"
+        end: "14:10"
+        speaker: wjkim2
+        type: standard
+      - title: "LOD 사례 2: 시설물 안전정보"
+        start: "14:10"
+        end: "14:30"
+        speaker: ymkim
+        type: standard
+      - title: "LOD 사례 3: 대한민국 국가서지"
+        start: "14:30"
+        end: "14:50"
+        speaker: yjchoi
+        type: standard
+      - title: "LOD 사례 4: 서울특별시 문화&middot;관광 정보"
+        start: "14:50"
+        end: "15:10"
+        speaker: yhcho
+        type: standard
+  - title: "커피 브레이크"
+    start: "15:10"
+    end: "15:30"
+    type: break
+  - title: "데이터의 공유와 활용"
+    start: "15:30"
+    end: "17:00"
+    type: session
+    talks:
+      - title: "오픈데이터의 공유와 유통"
+        start: "15:30"
+        end: "16:00"
+        speaker: brkim
+        type: standard
+      - title: "네이버, 빅데이터 포털 및 글로벌 학술정보"
+        start: "16:00"
+        end: "16:30"
+        speaker: hsjung
+        type: standard
+      - title: "IoT (Internet of Things)와 LOD"
+        start: "16:30"
+        end: "17:00"
+        speaker: kclee
+        type: standard
+  - title: "미래사회와 데이터"
+    start: "17:00"
+    end: "17:30"
+    speaker: shmaeng
+    type: keynote
+  - title: "폐회 및 경품추첨"
+    start: "17:30"
+    end: "18:00"
+    type: closing

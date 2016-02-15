@@ -1,0 +1,15 @@
+- year: 2016
+  title: 생활 속의 데이터, 링크드 데이터, 오픈 데이터
+  venue:
+    name: 국립중앙도서관 국제회의장
+    address: 서울특별시 서초구 반포대로 201
+    postcode: 06579
+    latitude: 37.4975
+    longitude: 127.0033
+  credits:
+    - name: 주식회사 리스트
+      www: "http://listinc.kr/"
+      ci: "list.svg"
+    - name: 국립중앙도서관
+      www: "http://www.nl.go.kr/"
+      ci: "nl.svg"
