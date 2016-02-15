@@ -33,7 +33,7 @@
                                     {% for speaker in site.data.speakers %}
                                       {% if speaker.id == talk.speaker %}
                                         &middot;
-                                        <span class="name"><a href="#speaker-{{ speaker.id }}">{{ speaker.name | strip_html }}</a></span>
+                                        <span class="name">{% if speaker.description %}<a href="#speaker-{{ speaker.id }}">{% endif %}{{ speaker.name | strip_html }}{% if speaker.description %}</a>{% endif %}</span>
                                         <span class="affiliation">{{ speaker.affiliation | strip_html }}</span>
                                       {% endif %}
                                     {% endfor %}
@@ -55,7 +55,7 @@
                                   {% for speaker in site.data.speakers %}
                                     {% if speaker.id == session.speaker %}
                                       &middot;
-                                      <span class="name"><a href="#speaker-{{ speaker.id }}">{{ speaker.name | strip_html }}</a></span>
+                                      <span class="name">{% if speaker.description %}<a href="#speaker-{{ speaker.id }}">{% endif %}{{ speaker.name | strip_html }}{% if speaker.description %}</a>{% endif %}</span>
                                       <span class="affiliation">{{ speaker.affiliation | strip_html }}</span>
                                     {% endif %}
                                   {% endfor %}

@@ -2,8 +2,13 @@
   talks:
   - title: "참가등록 및 행사소개"
     start: "09:30"
-    end: "10:00"
+    end: "09:50"
     type: opening
+  - title: 환영사
+    start: "09:50"
+    end: "10:00"
+    speaker: wslim
+    type: keynote
   - title: "iSchool, Data Science, and DaaS (Data as a Service)"
     start: "10:00"
     end: "10:30"

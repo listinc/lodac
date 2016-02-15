@@ -21,19 +21,21 @@
       <ul class="speakers">
         {% for speaker in site.data.speakers %}
           {% assign included = false %}
-          {% for session in sessions %}
-            {% if session.talks %}
-              {% for talk in session.talks %}
-                {% if speaker.id == talk.speaker %}
+          {% if speaker.description %}
+            {% for session in sessions %}
+              {% if session.talks %}
+                {% for talk in session.talks %}
+                  {% if speaker.id == talk.speaker %}
+                    {% assign included = true %}
+                  {% endif %}
+                {% endfor %}
+              {% else %}
+                {% if speaker.id == session.speaker %}
                   {% assign included = true %}
                 {% endif %}
-              {% endfor %}
-            {% else %}
-              {% if speaker.id == session.speaker %}
-                {% assign included = true %}
               {% endif %}
-            {% endif %}
-          {% endfor %}
+            {% endfor %}
+          {% endif %}
           {% if included %}
             <li id="speaker-{{ speaker.id }}" class="speaker">
               <div class="picture"><img src="../images/speakers/{{ speaker.id }}.png" alt="{{ speaker.name }}"></div>
