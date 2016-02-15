@@ -21,7 +21,7 @@
       <ul class="speakers">
         {% for speaker in site.data.speakers %}
           {% assign included = false %}
-          {% if speaker.description %}
+          {% if speaker.biography %}
             {% for session in sessions %}
               {% if session.talks %}
                 {% for talk in session.talks %}
