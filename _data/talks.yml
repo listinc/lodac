@@ -30,11 +30,12 @@
         speaker: supark
         type: standard
         slides: "https://speakerdeck.com/lodac/gongganjeongbowa-ringkeudeu-deiteo"
-      - title: "의료기술과 오픈데이터"
+      - title: "의료와 오픈데이터"
         start: "11:30"
         end: "12:00"
         speaker: jekim
         type: standard
+        slides: "https://speakerdeck.com/lodac/yiryowa-opeundeiteo"
   - title: "점심시간"
     start: "12:00"
     end: "13:20"
@@ -44,11 +45,12 @@
     end: "15:10"
     type: session
     talks:
-      - title: "쉽게 다가가는 LOD"
+      - title: "쉽게 이해하는 LOD"
         start: "13:20"
         end: "13:50"
         speaker: mjlee
         type: standard
+        slides: "https://speakerdeck.com/lodac/swibge-ihaehaneun-lod"
       - title: "LOD 사례 1: NDSL (National Digital Science Library)"
         start: "13:50"
         end: "14:10"
@@ -88,6 +90,7 @@
         end: "16:30"
         speaker: hsjung
         type: standard
+        slides: "https://speakerdeck.com/lodac/neibeo-bigdeiteo-poteol-mic-geulrobeol-hagsuljeongbo"
       - title: "IoT (Internet of Things)와 LOD"
         start: "16:30"
         end: "17:00"
