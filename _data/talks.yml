@@ -56,6 +56,7 @@
         end: "14:10"
         speaker: wjkim2
         type: standard
+        slides: "https://speakerdeck.com/lodac/lod-sarye-1-ndsl-national-digital-science-library"
       - title: "LOD 사례 2: 시설물 안전정보"
         start: "14:10"
         end: "14:30"
