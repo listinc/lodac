@@ -19,11 +19,12 @@
     end: "12:00"
     type: session
     talks:
-      - title: "공간정보 서비스에서 데이터의 활용"
+      - title: "공간정보 서비스에서 데이터의 의미와 활용"
         start: "10:30"
         end: "11:00"
         speaker: jhlee
         type: standard
+        slides: "https://speakerdeck.com/lodac/gongganjeongbo-seobiseueseo-deiteoyi-yimiwa-hwalyong"
       - title: "공간정보와 링크드 데이터"
         start: "11:00"
         end: "11:30"
