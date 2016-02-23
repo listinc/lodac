@@ -14,6 +14,7 @@
     end: "10:30"
     speaker: sgoh
     type: keynote
+    slides: "https://speakerdeck.com/lodac/ischool-data-science-and-daas-data-as-a-service"
   - title: "생활 속의 데이터"
     start: "10:30"
     end: "12:00"
@@ -63,16 +64,19 @@
         end: "14:30"
         speaker: ymkim
         type: standard
+        slides: "https://speakerdeck.com/lodac/lod-sarye-2-siseolmul-anjeonjeongbo"
       - title: "LOD 사례 3: 대한민국 국가서지"
         start: "14:30"
         end: "14:50"
         speaker: yjchoi
         type: standard
+        slides: "https://speakerdeck.com/lodac/lod-sarye-3-daehanmingug-guggaseoji"
       - title: "LOD 사례 4: 서울특별시 문화&middot;관광 정보"
         start: "14:50"
         end: "15:10"
         speaker: yhcho
         type: standard
+        slides: "https://speakerdeck.com/lodac/lod-sarye-4-seoulteugbyeolsi-munhwa-gwangwang-jeongbo"
   - title: "커피 브레이크"
     start: "15:10"
     end: "15:30"

@@ -67,7 +67,7 @@
                                 {% when "opening" %}
                                 <i class="fa fa-sign-in fa-lg"></i>
                                 {% when "keynote" %}
-                                {% if talk.slides %}<a href="{{ talk.slides }}" title="발표자료">{% endif %}<i class="fa fa-slideshare fa-lg"></i>{% if talk.slides %}</a>{% endif %}
+                                {% if session.slides %}<a href="{{ session.slides }}" title="발표자료">{% endif %}<i class="fa fa-slideshare fa-lg"></i>{% if session.slides %}</a>{% endif %}
                                 <i class="fa fa-certificate fa-lg"></i>
                                 {% when "lunch" %}
                                 <i class="fa fa-cutlery fa-lg"></i>
