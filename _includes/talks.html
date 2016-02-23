@@ -18,13 +18,13 @@
           {% if talks.year == event.year %}
             <ul class="timetable-list">
               {% for session in talks.talks %}
-                <li class="timetable-row">
-                  <dl>
-                    <dt class="time">{{ session.start }} ~ {{ session.end }}</dt>
-                    <dd class="talk">
-                      <ul>
-                        {% if session.talks %}
-                          {% for talk in session.talks %}
+                {% if session.talks %}
+                  {% for talk in session.talks %}
+                    <li class="timetable-row">
+                      <dl>
+                        <dt class="time">{{ talk.start }} ~ {{ talk.end }}</dt>
+                        <dd class="talk">
+                          <ul>
                             <li>
                               <div>
                                 <p>
@@ -45,8 +45,17 @@
                                 <i class="fa fa-microphone fa-lg"></i>
                               </div>
                             </li>
-                          {% endfor %}
-                        {% else %}
+                          </ul>
+                        </dd>
+                      </dl>
+                    </li>
+                  {% endfor %}
+                {% else %}
+                  <li class="timetable-row">
+                    <dl>
+                      <dt class="time">{{ session.start }} ~ {{ session.end }}</dt>
+                      <dd class="talk">
+                        <ul>
                           <li>
                             <div>
                               <p>
@@ -78,11 +87,11 @@
                               {% endcase %}
                             </div>
                           </li>
-                        {% endif %}
-                      </ul>
-                    </dd>
-                  </dl>
-                </li>
+                        </ul>
+                      </dd>
+                    </dl>
+                  </li>
+                {% endif %}
               {% endfor %}
             </ul>
           {% endif %}
